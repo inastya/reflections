@@ -13,11 +13,20 @@ I can make sure all changes are committed before starting working on a new logic
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When I create experimental change or make a full copy of my game with a change I want to keep, like a new version of the code (for a separate simulation, say)
 
 How do the diagrams help you visualize the branch structure?
+Diagrams make it easy to see the tree-like structure of the git branches, see from which parent a new branch was created and therefore to see what changes in the master branch the new branch does not have.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Allows you to decide when the new branch is ready to merge.
+
+Main functions to take away:
+git log --graph --oneline
+
+git merge master coins //merge branch with master
+git branch -d coins //delete branch label 
