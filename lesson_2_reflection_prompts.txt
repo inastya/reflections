@@ -23,7 +23,7 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-Allows you to decide when the new branch is ready to merge.
+Allows you to decide when the new branch is ready to merge. Also allows you to review the changes in the code.
 
 Main functions to take away:
 git log --graph --oneline
