@@ -23,7 +23,11 @@ and what would be harder?
 
     I would use a messenger or/and emails to notify people when the code gets updated, I would store the code in a cloud so that others have access to it. It would be easier, since it does not require pushing/pulling and keeping track of the checked out branches etc but it would be harder to recover the versions of the files that were there prior to modifications or to see what changes were introduced and by whom.
 
+
+    Reflect: When to use a separate branch
+You just saw that the workflow when making changes in a separate branch is more complicated than working directly in master, especially when you need to stay up-to-date with changes others are making. Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
+
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+When I would like to experiment developing a new feature, having a working master branch, I would create a new branch. Also when collaborating with others and knowing that my changes need to be approved by the team before merging them into the master branch.
